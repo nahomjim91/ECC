@@ -1,10 +1,12 @@
 import './App.css';
 import DigitalSignature from "./ecc"
+import AliceBobExample from "./ecc2"
 
 function App() {
   return (
     <div className="App">
-     <DigitalSignature/>
+     {/* <DigitalSignature/> */}
+     <AliceBobExample/>
     </div>
   );
 }
